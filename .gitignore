@@ -5,3 +5,31 @@
 /data_dev/
 /data/
 /src/__pycache__/
+# data and outputs
+*.nc
+*.npy
+*.npz
+*.pth
+*.ckpt
+*.zarr/
+figures/
+*.png
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+# data and results
+*.nc
+Notebooks/results/
+figures/
+*.npy
+*.npz
+*.pth
+*.ckpt
+*.zarr/
+
+# python / jupyter cache
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.ipynb_checkpoints/
